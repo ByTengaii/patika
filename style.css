@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-color: #ffffff;
+}
+.desktop {
+  width: 1200px;
+  height: min-content; /* 3488px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  margin: 0 auto;
+}
+ 
+/***** HOME *****/
+.rows {
+    background-color: #121113;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 452px */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 100px;
+    overflow:hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 59px */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  border-radius: 0px 0px 0px 0px;
+  border-color: #E4E6C3;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  margin-bottom: 50px;
+}
+
+#menu>p{
+    display: inline-block;
+    flex-shrink: 0;
+    width: auto; /* 63px */
+    height: auto; /* 19px */
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+    color: #f7f7f2;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    margin-left: 20px;
+}
+
+#menu>p:hover{
+  background-color: white;
+  cursor:alias;
+}
+
+#nav_message {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 1px;
+    height: auto; /* 19px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+    color: #f7f7f2;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#HOME{
+  flex-shrink: 0;
+  flex: 1 0 0px;
+  height: 223px; /* 223px */
+  white-space: pre;
+  max-width: 800px;
+  z-index: 2;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Unica One", sans-serif;
+  color: #f7f7f2;
+  font-size: 222.93004158004157px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+#step_into{
+  flex-shrink: 0;
+  flex: 1 0 0px;
+  width: 500px;
+  height: auto; /* 112px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  z-index: 2;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+  color: #f7f7f2;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.4;
+  text-align: left;
+  margin-left: 50px;
+  bottom: 10px;
+}
+#welcome_img{
+  flex-shrink: 0;
+  width: 100%;
+  height: 800px;
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  mix-blend-mode: luminosity;
+  overflow: hidden;
+  flex: 1 0 0px;
+  position: relative;
+  aspect-ratio: 1.7142857142857142 / 1;
+  background-image: url(./img/gurkan.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 140px 140px;
+  z-index: 0;
+}
+.rows > .decoration {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 317px;
+  height: 215px;
+  display: block;
+  overflow: hidden;
+  transform: rotate(62deg);
+  z-index: 1;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  margin-right: 95%;
+  margin-bottom: 10%;
+}
+
+.rows > .decoration_b {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 295px;
+  height: 155px;
+  display: block;
+  overflow: hidden;
+  transform: rotate(-3deg);
+  z-index: 1;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  margin-left: 100%;
+  margin-top: 20%;
+}
+
+.rows > .decoration_c {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 295px;
+  height: 155px;
+  display: block;
+  overflow: hidden;
+  transform: rotate(144deg);
+  z-index: 1;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  margin-left: 100%;
+  margin-top: 20%;
+}
+/***** END OF HOME *****/
+
+/**** Internet GUY ****/
+.internet-guy {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: 444px; /* 444px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+  background-color: #f7f7f2;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 0px 0px 0px 0px;
+}
+
+#it-guy_header {
+  display: flex;  
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+  color: #222725;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 40px;
+}
+#it-content{
+  flex-shrink: 0;
+  width: 100%;
+  height: auto; /* 180px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 600px;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Unica One", sans-serif;
+  color: #121113;
+  font-size: 50px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.internet-guy > .decoration{
+  flex-shrink: 0;
+  width: 296px;
+  height: 297px;
+  display: block;
+  overflow: visible;
+  opacity: 0.3;
+  z-index: 1;
+  aspect-ratio: 0.9966329966329966 / 1;
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 60%; 
+}
+
+.line1 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  position: absolute;
+  top:50%;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.line2 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  transform: rotate(60deg);
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  top: 50%;
+}
+.line3 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  transform: rotate(30deg);
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  top: 50%;
+}
+.line4 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  transform: rotate(-60deg);
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  top: 50%;
+}
+.line5 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  transform: rotate(-30deg);
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  top: 50%;
+}
+.line6 {
+  width: 296px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  overflow: hidden;
+  transform: rotate(90deg);
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  top: 50%;
+}
+/* END OF IT GUY */
+
+/* PROJECTS */
+
+.project-section {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: 600px; /* 600px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+  background-color: #121113;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.project-list {
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 400px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 20;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.project {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: 120px; /* 120px */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 40px 10px 10px;
+  background-color: #1f1d20;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 40;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.project-image {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background-image: url(./img/code_galaxy.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+#certificates{
+  background-image: url(./img/certificate.png);
+}
+#linkedin{
+  background-image: url(./img/linkedin.png);
+}
+.project-explain {
+  flex-shrink: 0;
+  flex: 1 0 0px;
+  width: 1px;
+  height: min-content; /* 51px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.header {
+  flex-shrink: 0;
+  width: auto; /* 141px */
+  height: auto; /* 30px */
+  white-space: pre;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+  color: #e4e6c3;
+  font-size: 20px;
+  letter-spacing: -0.025em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a{
+  position: absolute;
+}
+.explain {
+  flex-shrink: 0;
+  width: auto; /* 156px */
+  height: auto; /* 21px */
+  white-space: pre;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Golos Text", "Golos Text Placeholder", sans-serif;
+  color: #e4e6c3;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: center;
+}
+/* */

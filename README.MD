@@ -4,4 +4,3 @@ At this assigment we need to create an webpage use just html and css. We do not 
 
 ## Here is my website :
 ![Screen shoot of website](/website_view.png)
-#  Patika-CSS Assigment-1

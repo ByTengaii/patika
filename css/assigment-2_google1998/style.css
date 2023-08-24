@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.google-img{
+    display: block;
+    margin: auto;
+}
+
+.content{
+    width: 1667.76px;
+    height: min-content;
+    margin: auto;
+}
+
+.search-section{
+    width: 100%;
+    background-color: #EEEE;
+    height: 86px;
+}
+
+#slogan{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+#search-bar
+{
+    display: block;
+    margin: auto;
+}
+
+.buttons{
+    display:block;
+    width:max-content;
+    position: relative;
+    margin: auto;
+}
+
+.more-section{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.special-searches{
+    width: 615px;
+    padding-top: 10px;
+    background-color: #7EE5DA;
+}
+
+.special-searches *{
+    display: block;
+    text-align: center;
+}
+
+.more-links{
+    width: 341px;
+    padding-top: 10px;
+    background-color: #70CCC2;
+}
+
+.more-links *{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.subscripe-mail{
+    width: 708px;
+    background-color: #62B3AA;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.more-section > div{
+    height: 90px;
+}
+
+

@@ -20,7 +20,7 @@ const addBook = (item,data) => {
 }
 async function showBooks(){
     try{
-        await addBook({Kitap:'Tutunamayanlar', Yazar:'Gürkan'},book2s);
+        await addBook({Kitap:'Tutunamayanlar', Yazar:'Gürkan'},books);
         listBooks();
     }
     catch(error){
